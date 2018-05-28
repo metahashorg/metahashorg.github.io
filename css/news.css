@@ -1,0 +1,285 @@
+
+
+.news
+{
+    padding-top: 80px;
+}
+
+.news__main-block
+{
+    padding: 0 15px;
+}
+
+.news__title
+{
+    margin-top: 10px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.news__item-imgBlock
+{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.news__item-imgBlock:after
+{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.news__item-img
+{
+    float: left;
+}
+
+.news__item-date
+{
+    font-size: 14px;
+    color: #8FC4FF;
+    margin-top: 20px;
+}
+
+.news__item-title
+{
+    font-size: 18px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.news__breadcrumbs
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news__breadcrumbs-item
+{
+    font-size: 11px;
+    color: #FFFFFF;
+    margin: 0 5px;
+    position: relative;
+}
+
+.news__breadcrumbs-item:after
+{
+    content: '/';
+    position: absolute;
+    top: 0;
+    right: -7px;
+}
+
+.news__breadcrumbs-item:last-child:after
+{
+    display: none;
+}
+
+.news__breadcrumbs-item:first-child
+{
+    margin-left: 0;
+}
+
+.news__breadcrumbs-item a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.news__list
+{
+    margin-top: 30px;
+}
+
+.news__list .slick-slide div:not(.news__item-imgBlock)
+{
+    margin-bottom: 35px;
+}
+
+.news__list .slick-slide div:last-child
+{
+    margin-bottom: 0;
+}
+
+.news__list .slick-dots li
+{
+    width: 8px;
+    height: 8px;
+}
+
+.news__list .slick-dots button
+{
+    width: 8px;
+    height: 8px;
+}
+
+.news__list .slick-dots li button:before
+{
+    width: 8px;
+    height: 8px;
+    font-size: 8px;
+    line-height: 8px;
+}
+
+@media (min-width: 768px)
+{
+    .news
+    {
+        padding-top: 100px;
+    }
+
+    .news__main-block
+    {
+        padding: 0 30px;
+    }
+
+    .news__breadcrumbs-item
+    {
+        font-size: 16px;
+    }
+
+    .news__title
+    {
+        margin-top: 35px;
+        font-size: 36px;
+        line-height: normal;
+    }
+
+    .news__item
+    {
+        width: calc(50% - 70px) !important;
+    }
+
+    .news__item:not(:last-child)
+    {
+        margin-right: 70px;
+    }
+
+    .news__list .slick-slide div:not(.news__item-imgBlock)
+    {
+        margin-bottom: 90px;
+    }
+
+    .news__list .slick-dots li
+    {
+        width: 12px;
+        height: 12px;
+    }
+
+    .news__list .slick-dots button
+    {
+        width: 12px;
+        height: 12px;
+    }
+
+    .news__list .slick-dots li button:before
+    {
+        width: 12px;
+        height: 12px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .news__list .slick-arrow
+    {
+        top: inherit;
+        bottom: -55px;
+        color: #8FC4FF;
+        font-size: 18px;
+        line-height: normal;
+        width: auto;
+        z-index: 4;
+    }
+
+    .news__list .slick-prev
+    {
+        left: 0px;
+    }
+
+    .news__list .slick-prev:before
+    {
+        display: none;
+    }
+
+    .news__list .slick-next
+    {
+        right: 0px;
+    }
+
+    .news__list .slick-next:before
+    {
+        display: none;
+    }
+
+    .news__list .slick-disabled
+    {
+        opacity: .3;
+    }
+
+    .footer-screenotstr
+    {
+        padding: 0 30px 40px;
+        box-sizing: border-box;
+    }
+
+    .footer-screenotstr-t
+    {
+        border-bottom: 1px solid rgba(0, 0, 0, .3);
+    }
+}
+
+@media (min-width: 1140px)
+{
+    .news
+    {
+        padding-top: 70px;
+    }
+
+    .news__title
+    {
+        font-size: 62px;
+    }
+
+    .news__main-block
+    {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .news__breadcrumbs-item
+    {
+        font-size: 18px;
+    }
+
+    .news__item:not(:last-child)
+    {
+        margin-right: 30px;
+    }
+
+    .news__item
+    {
+        width: calc(25% - 23px) !important;
+    }
+
+    .news__list .slick-slide div:not(.news__item-imgBlock)
+    {
+        margin-bottom: 45px;
+    }
+
+    .footer-screenotstr
+    {
+        padding: 0;
+        max-width: 1140px;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+
+    .footer-screenotstr-t
+    {
+        border-bottom: 1px solid rgba(255, 255, 255, .3);
+    }
+}

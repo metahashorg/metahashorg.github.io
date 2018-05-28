@@ -1,0 +1,10 @@
+.info-page__section-desctop {
+	display: block!important;
+}
+.info-page__section-title {
+	position: relative!important;
+	max-width: auto!important;
+}
+.mining-list {
+	margin-top: 20px!important;
+}

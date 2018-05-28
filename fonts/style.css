@@ -1,0 +1,165 @@
+@font-face {
+  font-family: 'icons';
+  src:
+    url('fonts/icons.ttf?bhey76') format('truetype'),
+    url('fonts/icons.woff?bhey76') format('woff'),
+    url('fonts/icons.svg?bhey76#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_user:before {
+  content: "\e922";
+  color: #fff;
+}
+.icon_adnow_logo:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon_adsniper_logo:before {
+  content: "\e91f";
+  color: #fff;
+}
+.icon_agranovsky_logo:before {
+  content: "\e920";
+  color: #fff;
+}
+.icon_logo:before {
+  content: "\e921";
+  color: #fff;
+}
+.icon_play:before {
+  content: "\e91d";
+  color: #fff;
+}
+.icon_telegram-chat:before {
+  content: "\e91b";
+  color: #47b0d3;
+}
+.icon_telegram-plane:before {
+  content: "\e91c";
+  color: #fff;
+}
+.icon_bitcointalk:before {
+  content: "\e91e";
+  color: #fff;
+}
+.icon_anchor:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon_cell:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon_cicle:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon_bitcoin:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon_metahash:before {
+  content: "\e904";
+  color: #8fc4ff;
+}
+.icon_exchange:before {
+  content: "\e905";
+  color: #8fc4ff;
+}
+.icon_bigdata:before {
+  content: "\e906";
+  color: #8fc4ff;
+}
+.icon_wallet:before {
+  content: "\e907";
+  color: #8fc4ff;
+}
+.icon_link:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon_dowload:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon_fb:before {
+  content: "\e90b";
+  color: #fff;
+}
+.icon_inst:before {
+  content: "\e90c";
+  color: #fff;
+}
+.icon_in:before {
+  content: "\e90d";
+  color: #fff;
+}
+.icon_viber:before {
+  content: "\e90e";
+  color: #fff;
+}
+.icon_telegram2:before {
+  content: "\e90f";
+  color: #fff;
+}
+.icon_github:before {
+  content: "\e910";
+  color: #fff;
+}
+.icon_medium:before {
+  content: "\e911";
+  color: #fff;
+}
+.icon_twitter:before {
+  content: "\e912";
+  color: #fff;
+}
+.icon_youtube:before {
+  content: "\e913";
+  color: #fff;
+}
+.icon_reddit:before {
+  content: "\e914";
+  color: #fff;
+}
+.icon_talk:before {
+  content: "\e915";
+  color: #fff;
+}
+.icon_wechat:before {
+  content: "\e916";
+  color: #fff;
+}
+.icon_vk:before {
+  content: "\e917";
+  color: #fff;
+}
+.icon_bitsmedia:before {
+  content: "\e918";
+  color: #fff;
+}
+.icon_mouse:before {
+  content: "\e919";
+  color: #fff;
+}
+.icon_arrow:before {
+  content: "\e91a";
+  color: #fff;
+}
