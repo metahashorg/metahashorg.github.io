@@ -1,0 +1,200 @@
+.link-block {
+	background: url('../img/git-logo.svg') no-repeat scroll right top transparent;
+	min-height: 540px;
+	margin: -25px 0 110px;
+	font-family: "PF-SquareSansPro", sans-serif;
+	font-weight: 500;
+}
+.link-block__heading {
+	font-size: 28px;
+	font-weight: 500;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 40px 0 28px;
+}
+
+.link-block__list {
+	padding: 0;
+	margin: 0 0 34px;
+	list-style: none;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 300;
+	color: #FA801D;
+	width: 490px;
+}
+.link-block__item {
+	margin: 0 0 12px;
+	position: relative;
+	padding: 0 0 0 50px;
+}
+.link-block__item span {
+	display: inline-block;
+	vertical-align: top;
+	width: 50px;
+	position: absolute;
+	left: 0;
+}
+.link-block__item a {
+	color: #FA801D;
+	border-bottom: 1px dashed;
+	width: 390px;
+}
+.link-block__item a:hover {
+	text-decoration: none;
+}
+.link-block__button a {
+	display: inline-block;
+	font-size: 15px;
+	line-height: 17px;
+	color: #fff;
+	text-align: center;
+	width: 277px;
+	padding: 17px 15px 16px;
+	border-radius: 5px;
+	background: linear-gradient(180deg, #FFFFFF 0%, #E65700 0.01%, #FF8400 100%), #C4C4C4;
+}
+
+
+.description-block {
+	border-top: 1px solid #3D425E;
+}
+.description-block__item {
+	padding: 55px 0 45px;
+	border-bottom: 1px solid #3D425E;
+}
+.description-block__heading {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding: 0 0 0 75px;
+	width: 482px;
+}
+.description-block__heading__number {
+	font-size: 36px;
+	font-weight: 500;
+	position: absolute;
+	left: 0;
+	top: 4px;
+	line-height: 36px;
+}
+.description-block__heading__name {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 500;
+}
+.description-block__content {
+	display: inline-block;
+	vertical-align: top;
+	padding: 5px 0 0 25px;
+	margin: -22px 0 0;
+	width: 635px;
+}
+.description-block__content__heading {
+	color: #FA801D;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 22px;
+	position: relative;
+	text-transform: uppercase;
+	margin: 22px 0 2px;
+	display: block;
+}
+.description-block__content__heading:hover {
+	color: #FA801D;
+}
+.description-block__content__heading::before {
+	content: '';
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: none no-repeat scroll 0 0 #FA801D;
+	position: absolute;
+	left: -25px;
+	top: 6px;
+}
+.description-block__content__text {
+	line-height: 27px;
+	font-size: 18px;
+	color: #fff;
+}
+.description-block__content__text p {
+	margin: 0 0 8px;
+}
+.description-block__content__text a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+
+/* fix old layout */
+nav.large .menu {
+	top: 52px;
+	right: 208px;
+}
+.menu_links .menu-item {
+	margin-right: 38px;
+}
+.offcanvas-icon {
+	background: none;
+	margin-top: -4px;
+	margin-right: -8px;
+}
+.offcanvas-icon .offcanvas-button {
+	top: 9px;
+	left: 10px;
+}
+.lang-switch {
+	right: 62px;
+	top: 48px;
+}
+.info-page__about {
+	margin-top: 0;
+	padding-top: 0;
+	border-top: 0;
+}
+.footer-screen {
+	margin-top: 0;
+	padding-top: 40px;
+}
+
+.anchor-scroll {
+	position: absolute;
+	margin-top: -230px;
+}
+.about-list__item-link:hover {
+	color: #FA801D;
+}
+
+@media (min-width: 768px) {
+	.about-list__item {
+		font-size: 18px;
+		line-height: 27px;
+	}
+	.news-page__about-list {
+		margin-top: 16px;
+	}
+	.news-page__share-block {
+		margin-top: 36px;
+		border-bottom: 1px solid #3D425E;
+		padding-bottom: 55px;
+	}
+	#share {
+		margin-top: 17px;
+		width: 512px;
+	}
+	.jssocials-shares {
+		margin: 0;
+	}
+	.jssocials-share {
+		width: 120px;
+		height: 32px;
+		margin: 0 8px 8px 0;
+	}
+	.jssocials-share-link {
+		box-shadow: none;
+		border-radius: 4px;
+	}
+}

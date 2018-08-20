@@ -1041,7 +1041,9 @@ padding-bottom:150px;  }
 .promo-soc {
   margin-top: 30px; margin-bottom:70px; }
   .promo-soc .lang {
-    margin-right: 22px; }
+    margin-right: 14px;
+    display: inline-block;
+    vertical-align: middle;}
     .promo-soc .lang:last-child {
       margin-right: 0; }
   .promo-soc .icon_bitsmedia,
@@ -2198,7 +2200,8 @@ background: linear-gradient(rgba(47, 123, 194, 0.3) 0%, rgba(47, 123, 194, 0) 50
   padding-bottom: 80px; }
   .footer-screen .-footer-text {
     font-size: 16px;
-	padding-bottom:5px;	}
+    padding-bottom:5px;
+    white-space: nowrap; }
   .footer-screen .-link-small {
     font-size: 14px; }
   .footer-screen .footer-soc-text {
@@ -2943,10 +2946,15 @@ input.modal__sub-inp {
 
 
 .promo-soc {
-    text-align: center;
+    /*text-align: center;*/
 }
 .promo-soc.-mobile-on .link-soc {
     margin-right: 0;
+}
+.promo-soc.-mobile-off .promo-soc__label {
+    font-size: 24px;
+    vertical-align: middle;
+    margin-right: 25px;
 }
 
 .promo-soc.-mobile-off div span.lang:first-child:before {
@@ -2957,6 +2965,7 @@ input.modal__sub-inp {
     width: 330px;
     top: 15px;
     margin-left: -350px;
+    display: none;
 }
 
 .promo-soc.-mobile-off div span.lang:last-child:before {
@@ -2967,6 +2976,7 @@ input.modal__sub-inp {
     width: 330px;
     top: 15px;
     margin-left: 50px;
+    display: none;
 }
 
 @media only screen and (max-width: 991px) {
