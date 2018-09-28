@@ -30,7 +30,7 @@ window.arrLang["ru"] = {
       'promo-content-description-3-3' : 'На языке Python',
       'promo-content-description-3-4' : 'Подробнее на вики-странице<br><a href="https://github.com/metahashorg/MetaHash/wiki/Address-Bash-example">https://github.com/metahashorg/MetaHash/wiki/Address-Bash-example</a>',
       'promo-content-description-3-5' : 'Shell-скрипты<br>Подробнее на вики-странице <br><a href="https://github.com/metahashorg/MetaHash/wiki/Address-Python-example">https://github.com/metahashorg/MetaHash/wiki/Address-Python-example</a>',
-      'promo-content-description-3-6' : 'Исходный код на языке PHP<br><a href="http://developers.metahash.org">http://developers.metahash.org</a>',
+      'promo-content-description-3-6' : 'API для генерации адреса и совершения транзакции на языке PHP',
       'promo-content-description-3-7' : 'На языке С++',
       'promo-content-description-3-8' : 'Репозиторий пока пуст',
       'promo-content-description-3-9' : 'Поддерживает тот же функционал по генерации адреса и проверке<br>подписи на языке PHP',

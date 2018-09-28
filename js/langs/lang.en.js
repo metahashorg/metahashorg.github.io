@@ -647,7 +647,7 @@ window.arrLang["en"] = {
     "promo-content-description-3-3": "Python language",
     "promo-content-description-3-4": "See our wiki page for more information <a href=\"https://github.com/metahashorg/MetaHash/wiki/Address-Bash-example\">https://github.com/metahashorg/MetaHash/wiki/Address-Bash-example</a>",
     "promo-content-description-3-5": "Shell scripts<br>See our wiki page for more information <a href=\"https://github.com/metahashorg/MetaHash/wiki/Address-Python-example\">https://github.com/metahashorg/MetaHash/wiki/Address-Python-example</a>",
-    "promo-content-description-3-6": "Source code written in PHP language<br><a href=\"http://developers.metahash.org\">http://developers.metahash.org</a>",
+    "promo-content-description-3-6": "API for generating address and performing transaction in PHP language",
     "promo-content-description-3-7": "C++ language",
     "promo-content-description-3-8": "Repository is empty",
     "promo-content-description-3-9": "This repository supports the same features for generating address<br>and verification signature in PHP",
